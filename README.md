@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio repository!
 
-**🚀 Live Demo:** [https://portfolio-theta-peach-px3173lonp.vercel.app/](https://portfolio-theta-peach-px3173lonp.vercel.app/)
+**🚀 Live :** [https://portfolio-theta-peach-px3173lonp.vercel.app/](https://portfolio-theta-peach-px3173lonp.vercel.app/)
 
 ## Tech Stack
 - React.js
