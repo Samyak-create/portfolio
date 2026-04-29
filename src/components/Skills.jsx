@@ -3,10 +3,11 @@ import { FaCode } from 'react-icons/fa';
 
 const Skills = () => {
   const skills = {
-    frontend: ['HTML', 'CSS', 'React.js', 'JavaScript'],
-    backend: ['Java', 'Spring', 'Spring Boot', 'C#', 'Asp.Net', 'Node.js', 'Express.js'],
+    languages: ['Java', 'C++', 'C#', 'JavaScript'],
+    frontend: ['HTML5', 'CSS3', 'React.js', 'JavaScript'],
+    backend: ['Spring Boot', 'Spring', 'JPA', 'Hibernate', 'Spring Security', 'ASP.NET Core', 'RESTful API', 'Microservices'],
     database: ['MySQL', 'MongoDB'],
-    tools: ['Git', 'GitHub', 'RESTful APIs', 'Microservices Architecture']
+    tools: ['Git', 'GitHub', 'Docker', 'Swagger', 'Postman']
   };
 
   return (
@@ -15,20 +16,27 @@ const Skills = () => {
       <div className="skills-grid">
         
         <div className="skill-category glass-card observe-me delay-100">
+          <h3><FaCode className="skill-icons" /> Languages</h3>
+          <div className="skill-list">
+            {skills.languages.map(skill => <span key={skill} className="skill-tag">{skill}</span>)}
+          </div>
+        </div>
+
+        <div className="skill-category glass-card observe-me delay-200">
           <h3><FaCode className="skill-icons" /> Backend</h3>
           <div className="skill-list">
             {skills.backend.map(skill => <span key={skill} className="skill-tag">{skill}</span>)}
           </div>
         </div>
 
-        <div className="skill-category glass-card observe-me delay-200">
+        <div className="skill-category glass-card observe-me delay-300">
           <h3><FaCode className="skill-icons" /> Frontend</h3>
           <div className="skill-list">
             {skills.frontend.map(skill => <span key={skill} className="skill-tag">{skill}</span>)}
           </div>
         </div>
 
-        <div className="skill-category glass-card observe-me delay-300">
+        <div className="skill-category glass-card observe-me delay-400">
           <h3><FaCode className="skill-icons" /> Database & Tools</h3>
           <div className="skill-list">
             {[...skills.database, ...skills.tools].map(skill => <span key={skill} className="skill-tag">{skill}</span>)}

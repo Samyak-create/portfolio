@@ -7,10 +7,9 @@ const Hero = () => {
         <div className="hero-text">
           <span className="hero-greeting animate-fade-in">Hello, world! I am</span>
           <h1 className="hero-title animate-fade-in delay-100">Samyak Bageshwar</h1>
-          <h2 className="hero-subtitle animate-fade-in delay-200">Java Full-Stack Developer</h2>
+          <h2 className="hero-subtitle animate-fade-in delay-200">Full Stack Developer</h2>
           <p className="hero-desc animate-fade-in delay-300">
-            Seeking to leverage my expertise in full-stack development, microservices architecture, and 
-            problem-solving skills to build scalable, innovative, and user-centric applications.
+            Full Stack Developer with hands-on experience in Java (Spring Boot) and .NET (ASP.NET Core), building scalable RESTful APIs and microservices-based applications.
           </p>
           <div className="hero-buttons animate-fade-in delay-300">
             <a href="#projects" className="btn btn-primary">View Projects</a>

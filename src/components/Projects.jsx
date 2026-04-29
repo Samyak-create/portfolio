@@ -18,6 +18,36 @@ const majorProjects = [
     ]
   },
   {
+    title: 'Finance Dashboard System',
+    desc: 'Finance Dashboard Backend built with Spring Boot featuring secure authentication, role-based access control (RBAC), and transaction analytics with pagination and filtering.',
+    tech: ['Java', 'Spring Boot', 'Spring Security', 'MySQL', 'REST API'],
+    github: 'https://github.com/Samyak-create/finance-dashboard-system',
+    details: [
+      'A production-style backend system built using Spring Boot that manages financial transactions with secure authentication, role-based access control (RBAC), and analytics capabilities.',
+      'Core Features:',
+      '- Secure authentication using Spring Security (Basic Auth) with encrypted passwords (BCrypt).',
+      '- Role-based authorization (ADMIN, ANALYST, VIEWER) to control access to transaction APIs.',
+      '- Comprehensive API for user management and full CRUD operations on transactions.',
+      '- Advanced data filtering, paginated transaction retrieval, and chronological tracking.',
+      '- Financial trends analysis endpoints for generating monthly, yearly, and category-wise insights.'
+    ]
+  },
+  {
+    title: 'Resource Booking System',
+    desc: 'A comprehensive Full-Stack application designed for managing resources and internal bookings, offering user access for reservations and an Admin platform for oversight.',
+    tech: ['Java', 'Spring Boot', 'React.js', 'MySQL', 'JWT', 'Docker'],
+    github: 'https://github.com/Samyak-create/resource-booking-system',
+    details: [
+      'A comprehensive Full-Stack application divided symmetrically between a Vite Frontend and a Spring Backend, communicating via RESTful JSON APIs.',
+      'Key Technologies & Features:',
+      '- Frontend built with React.js, Vite, and Axios for streamlined backend integration.',
+      '- Backend powered by Spring Boot (Java 17) and a MySQL relational database with Spring Data JPA.',
+      '- Stateless authentication using JWT (jjwt, BCrypt, Spring Security) with role-based access control (ROLE_ADMIN vs standard users).',
+      '- Admins can query, insert, or remove resources via secured endpoints, while standard users can seamlessly execute reservations.',
+      '- Containerized using Docker for streamlined microservices operation and deployment.'
+    ]
+  },
+  {
     title: 'Student Course Registration System',
     desc: 'Backend application using ASP.NET Core Web API and Entity Framework Core. Managed students, courses, and enrollments with RESTful APIs, complex relational mappings, and cloud-hosted database integration.',
     tech: ['C#', 'ASP.NET Core', 'EF Core', 'REST API', 'SQL'],
